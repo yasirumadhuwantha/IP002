@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+
+  <!-- Light Mode Favicon -->
+  <link rel="icon" href="bell-light-mode.png" media="(prefers-color-scheme: light)" />
+
+  <!-- Dark Mode Favicon -->
+  <link rel="icon" href="bell-dark-mode.png" media="(prefers-color-scheme: dark)" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <style>
+    .hover-scale-slight {
+      transition: transform 0.3s ease;
+    }
+    .hover-scale-slight:hover {
+      transform: scale(1.02);
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+    body {
+      font-family: 'Domine', serif;
+    }
+
+    .hover-scale-slight {
+      transition: transform 0.3s ease;
+    }
+
+    .hover-scale-slight:hover {
+      transform: scale(1.02);
+    }
+  </style>
+
+  <title>Email Subscribe</title>
+</head>
+
+<body>
+  <!-- Background Container -->
+  <div class="flex items-center justify-center h-screen bg-zinc-700">
+
+    <!-- Card -->
+    <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+
+      <!-- Flex Container -->
+      <div class="flex flex-col md:flex-row rounded-l-xl">
+
+
+        <!-- Image -->
+        <img 
+          src="image.png" 
+          alt="" 
+          class="object-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-tr-none transition-transform duration-300 hover-scale-slight"
+        />
+
+
+        <!-- Content -->
+        <div class="p-6 md:p-12">
+
+          <!-- Heading -->
+          <h2 class="font-serif text-xl font-medium text-center text-white md:text-left">
+            Boost Your Learning with Weekly Educational Tips!
+          </h2>
+
+          <!-- Paragraph -->
+          <p class="mx-auto max-w-sm my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left md:mx-0">
+            Stay informed and inspired. Sign up for curated tips, strategies, and resources to support your learning journey.
+          </p>
+
+
+          <!-- Input and Button -->
+          <div class="flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0">
+
+            <input 
+              type="text" 
+              placeholder="Enter your email address" 
+              class="p-2 px-4 text-center text-white bg-zinc-800 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"
+            />
+
+            <button 
+              class="px-5 py-3 text-xs rounded-md text-zinc-800 bg-lime-500 hover:bg-lime-700 hover:text-white duration-500"
+            >
+              Subscribe
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
