@@ -9,4 +9,4 @@
 
 ---
 
-![Screenshot 01](https://github.com/yasirumadhuwantha/IP002/blob/9bccdba970aecc7adf0cad31a4bd6f6df976df2f/screenshots/01.png)
+![Screenshot 01](https://github.com/yasirumadhuwantha/IP002/blob/ca560fc4f5b9bd173ec9abdbb33da2ced90f3c72/Screenshots/01.png)
